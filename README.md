@@ -1,5 +1,10 @@
 # docker-web
 
+- sudo apt install npm
+- sudo npm install -g n
+- sudo n lts
+
+
 Create a Docker Image using dockerfile 
 
 Push Docker Image to a Container Registry:
