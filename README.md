@@ -3,9 +3,13 @@
 - sudo apt install npm
 - sudo npm install -g n
 - sudo n lts
+  
 
 
 Create a Docker Image using dockerfile 
+
+- npx nx build exhibition-leaderboard
+- docker build -t leaderboard .
 
 Push Docker Image to a Container Registry:
 - Build the Docker image: docker build -t your-image-name .
