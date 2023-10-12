@@ -10,6 +10,7 @@ Create a Docker Image using dockerfile
 
 - npx nx build exhibition-leaderboard
 - docker build -t leaderboard .
+- 
 
 Push Docker Image to a Container Registry:
 - Build the Docker image: docker build -t your-image-name .
@@ -19,5 +20,11 @@ Push Docker Image to a Container Registry:
 
 Set Up AWS Lightsail Container Service:
 - Create a new Lightsail container service.
-- Choose the container image you pushed to ECR or provide the public image URL.
+- Choose the container image pushed to ECR or provide the public image URL.
 - Configure the container service with the desired instance specifications, network settings, and scaling options.
+- port 3000
+
+![image](https://github.com/ASalad42/docker-web/assets/104793540/c7258645-1745-4b84-bbfc-0da224886829)
+![image](https://github.com/ASalad42/docker-web/assets/104793540/ba9205f9-e438-4a43-9623-2b8c388bbb6f)
+
+
