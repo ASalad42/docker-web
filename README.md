@@ -8,6 +8,7 @@
 
 Create a Docker Image using dockerfile 
 
+- cd ~/smg-web/dist/apps/exhibition-leaderboard/standalone
 - npx nx build exhibition-leaderboard
 - sudo pnpm run build-leaderboard
 - docker build -t leaderboard .
