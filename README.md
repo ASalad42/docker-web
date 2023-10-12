@@ -10,7 +10,8 @@ Create a Docker Image using dockerfile
 
 - npx nx build exhibition-leaderboard
 - docker build -t leaderboard .
-- 
+- Only the standalone folder is needed in the docker image.
+- cd into that "standalone" folder and run "node apps/exhibition-leaderboard/server.js"
 
 Push Docker Image to a Container Registry:
 - Build the Docker image: docker build -t your-image-name .
