@@ -4,11 +4,11 @@
 - sudo npm install -g n
 - sudo n lts
 
-
+docker cheat sheet:
 - docker exec -it ae4e933d5dc0 /bin/bash
 - env
 - this shows the env variables of the container
-- docker run -d -p 3000:3000 leaderboard
+- docker run -d -p 3000(host):3000(container) leaderboard
 - docker build -t name . 
 
 
