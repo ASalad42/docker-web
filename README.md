@@ -11,7 +11,9 @@ docker cheat sheet:
 - docker run -d -p 3000(host):3000(container) leaderboard
 - docker build -t name . 
 
-
+- export NEXT_PUBLIC_LB_API_USERNAME=admin
+- echo $NEXT_PUBLIC_LB_API_USERNAME
+- export NEXT_PUBLIC_LB_API_PASSWORD=elfW
 Create a Docker Image using dockerfile 
 
 - cd ~/smg-web/dist/apps/exhibition-leaderboard/standalone
